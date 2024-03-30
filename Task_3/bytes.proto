@@ -1,0 +1,6 @@
+syntax = "proto3";
+package pb;
+
+message my_image {
+    bytes image = 1;
+}
